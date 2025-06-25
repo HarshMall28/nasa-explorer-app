@@ -1,11 +1,12 @@
-# 🌌 NASA Explorer App — Near-Earth Objects Visualizer
+# 🌌 NASA Explorer App — APOD & Near-Earth Objects Visualizer
 
-This project lets you **visualize Near-Earth Objects (NEOs)** using NASA's API.  
+This project lets you **explore NASA's Astronomy Picture of the Day (APOD)** and **visualize Near-Earth Objects (NEOs)** using real-time data from NASA's APOD and NeoWs APIs.  
 It features:
 
-- 📅 Interactive date range selection (max 7 days)
+- 🌠 Daily Astronomy Picture with details from NASA APOD API
+- 📅 Interactive date range selection (max 7 days) for NEO data
 - 🌍 3D WebGL visualization of Earth + asteroids
-- ⚡ Real-time data from NASA NeoWs API
+- ⚡ Real-time data from NASA APOD and NeoWs APIs
 
 **Frontend:** React + Vite + TypeScript + Three.js (in `frontend/`)  
 **Backend:** Node.js + Express + TypeScript (in `backend/`)
