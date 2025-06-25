@@ -19,8 +19,7 @@ Deployed on:
 
 ## 🌟 Live Demo
 
-- 🌐 Frontend: [NASA Explorer](https://nasa-explorer-c9y1worfj-harshs-projects-a5c8e56e.vercel.app/)
-- 🌐 Backend API: [NASA Explorer API](https://nasa-api-backend-40fab7cef3b8.herokuapp.com/)
+- 🌐[NASA Explorer](https://nasa-explorer-nine.vercel.app/)
 
 ---
 
@@ -56,7 +55,7 @@ Tip: You can get your NASA API key {https://api.nasa.gov/}.
 npm run dev
 ```
 
-✅ The backend will start on http://localhost:5150
+### ✅ The backend will start on http://localhost:5150
 
 ### ⚙ Setup the frontend
 
