@@ -13,8 +13,8 @@ It features:
 
 Deployed on:
 
-- 🌐 Vercel (frontend)
-- 🌐 Heroku (backend)
+- 🌐 Vercel {frontend}(https://github.com/HarshMall28/nasa-explorer-api-frontend)
+- 🌐 Heroku {backend} (https://github.com/HarshMall28/nasa-explorer-api-backend/tree/main)
 
 ---
 
