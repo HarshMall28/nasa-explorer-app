@@ -12,7 +12,14 @@ const app: Application = express();
 
 // Enable CORS with default settings (allow all origins)
 // ⚠️ In production, replace with specific origins for security
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "https://nasa-explorer-nine.vercel.app",
+      "http://localhost:5173",
+    ],
+  })
+);
 
 // Parse incoming JSON payloads
 app.use(express.json());
