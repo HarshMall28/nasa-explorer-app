@@ -24,11 +24,11 @@ Deployed on:
 ---
 
 ## 📂 Project structure
-
+```
 ├── frontend/
 ├── backend/
 └── README.md
-
+```
 ---
 
 ## 🚀 Local Setup Guide
