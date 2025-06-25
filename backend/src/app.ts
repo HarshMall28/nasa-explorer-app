@@ -11,7 +11,6 @@ const app: Application = express();
  */
 
 // Enable CORS with default settings (allow all origins)
-// ⚠️ In production, replace with specific origins for security
 app.use(
   cors({
     origin: [
