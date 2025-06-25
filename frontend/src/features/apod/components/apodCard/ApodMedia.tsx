@@ -12,7 +12,7 @@ const ApodMedia = ({ data }: ApodMediaProps) => {
     return (
       <div className="group relative w-full h-full overflow-hidden rounded-lg md:rounded-xl shadow-xl md:shadow-2xl">
         <img
-          src={data.hdurl || data.url}
+          src={data.url || data.hdurl}
           alt={data.title}
           className="w-full h-auto max-h-[60vh] md:max-h-[80vh] object-contain md:object-cover transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
