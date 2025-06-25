@@ -1,0 +1,30 @@
+# Node backend
+node_modules/
+dist/
+backend/node_modules/
+backend/dist/
+
+# Vite frontend
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test output
+coverage/
+test-results.xml
+
+# IDE / OS junk
+.DS_Store
+.idea/
+.vscode/
+
+# Others
+*.tsbuildinfo

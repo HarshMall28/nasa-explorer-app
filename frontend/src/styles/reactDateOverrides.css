@@ -1,0 +1,41 @@
+.rdrCalendarWrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.rdrMonth {
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+.rdrDayNumber span {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+}
+
+.rdrDateDisplayItem input {
+  font-size: 14px;
+  padding: 0.4rem 0.6rem;
+}
+
+@media (max-width: 640px) {
+  .rdrCalendarWrapper {
+    font-size: 0.9rem !important;
+    padding: 0.25rem;
+  }
+
+  .rdrDayNumber span {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .rdrDateDisplayItem input {
+    font-size: 12px;
+    padding: 0.25rem;
+  }
+}
