@@ -57,3 +57,26 @@ npm run dev
 ```
 
 ✅ The backend will start on http://localhost:5150
+
+### ⚙ Setup the frontend
+
+```bash
+cd ../frontend
+npm install
+
+```
+
+### 👉 Create a .env file in the frontend/ folder:
+
+```bash
+VITE_API_URL=http://localhost:5150
+
+```
+
+### Run the frontend:
+
+```bash
+npm run dev
+```
+
+### ✅ The frontend will start on http://localhost:5173
