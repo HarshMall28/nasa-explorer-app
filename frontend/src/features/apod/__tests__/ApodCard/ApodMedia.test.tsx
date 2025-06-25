@@ -21,7 +21,7 @@ describe("ApodMedia", () => {
     render(<ApodMedia data={data} />);
     const img = screen.getByAltText("Test Title");
     expect(img).toBeInTheDocument();
-    expect(img).toHaveAttribute("src", data.hdurl);
+    expect(img).toHaveAttribute("src", data.url);
   });
 
   it("renders video media", () => {

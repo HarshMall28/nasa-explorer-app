@@ -29,6 +29,6 @@ describe("ApodCard", () => {
     render(<ApodCard data={mockData} />);
     const img = screen.getByAltText("Test Title") as HTMLImageElement;
     expect(img).toBeInTheDocument();
-    expect(img.src).toBe(mockData.hdurl);
+    expect(img.src).toBe(mockData.url);
   });
 });
