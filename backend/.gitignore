@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Env files
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test output
+coverage/
+test-results.xml
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# TypeScript build info
+*.tsbuildinfo
